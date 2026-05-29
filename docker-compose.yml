@@ -1,0 +1,7 @@
+services:
+  password-tools:
+    build: .
+    container_name: password-tools
+    ports:
+      - "8847:80"
+    restart: unless-stopped
